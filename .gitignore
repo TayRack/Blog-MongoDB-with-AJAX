@@ -1,0 +1,9 @@
+/*
+!data/
+!public/
+!views/
+!routes/
+!app.js
+!.gitignore
+!package.json
+!package-lock.json
