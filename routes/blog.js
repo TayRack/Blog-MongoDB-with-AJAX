@@ -134,6 +134,7 @@ router.post('/posts/:id/comments', async function (req, res) {
   };
   await db.getDb().collection('comments').insertOne(newComment);
   res.json({message: 'Comment added!'});
-  });
+   });
+
 
 module.exports = router;
